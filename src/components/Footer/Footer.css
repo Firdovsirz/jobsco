@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background: #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 350px;
+}
+
+footer>.footer-desc {
+    width: 320px;
+}
+
+footer>.footer-desc>div:first-child {
+    margin-bottom: 50px;
+}
+
+footer>.footer-desc>div:first-child>img {
+    margin-bottom: 20px;
+}
+
+footer>.footer-desc>div:first-child>p {
+    color: #6D6E8D;
+}
+
+footer>.footer-desc>.footer-desc-social-medias {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>.footer-desc>.footer-desc-social-medias>a>img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 13, 255, 0.06);
+    background: rgba(0, 13, 255, 0.06);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+footer>.footer-quick-links>h3 {
+    margin-bottom: 20px;
+    color: #00044A;
+    font-size: 16px;
+}
+
+footer>.footer-quick-links>ul>li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    color: #6D6E8D;
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+footer>.footer-quick-links>ul>li:hover {
+    color: #000DFF;
+    text-decoration: underline;
+    transform: translateX(5px);
+}
+
+footer>.footer-subscription {
+    width: 270px;
+}
+
+footer>.footer-subscription>h3 {
+    margin-bottom: 20px;
+    color: #00044A;
+    font-size: 16px;
+}
+
+footer>.footer-subscription>p {
+    color: #6D6E8D;
+    margin-bottom: 15px;
+}
+
+footer>.footer-subscription>form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer>.footer-subscription>form>label>input {
+    width: 100%;
+    margin-bottom: 2px;
+    height: 47px;
+    padding: 10px 10px;
+    border: 1px solid #EFEFEF;
+    background: #fff;
+    color: #000000;
+    border-radius: 5px;
+    outline: none;
+    font-size: 17px;
+}
+
+footer>.footer-subscription>form>button {
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    padding: 17px 22px;
+    background: #000DFF;
+    line-height: 1;
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+}
