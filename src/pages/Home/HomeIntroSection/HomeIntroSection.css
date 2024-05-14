@@ -12,6 +12,7 @@
     padding-inline: 300px;
     display: flex;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .home-intro-section>.intro-bg-text {
@@ -65,10 +66,12 @@
     margin-bottom: 40px;
     width: 600px;
 }
-.home-intro-section>.home-intro-text>.home-intro-buttons{
+
+.home-intro-section>.home-intro-text>.home-intro-buttons {
     display: flex;
 }
-.home-intro-section>.home-intro-text>.home-intro-buttons>.intro-job-btn{
+
+.home-intro-section>.home-intro-text>.home-intro-buttons>.intro-job-btn {
     color: white;
     background: #000DFF;
     font-size: 20px;
@@ -79,7 +82,8 @@
     border-radius: 5px;
     margin-right: 20px;
 }
-.home-intro-section>.home-intro-text>.home-intro-buttons>.intro-talent-btn{
+
+.home-intro-section>.home-intro-text>.home-intro-buttons>.intro-talent-btn {
     color: #fff;
     background: #27CB8B;
     font-weight: 500;
@@ -90,4 +94,10 @@
     border-radius: 5px;
     margin-left: 20px;
     border: 1px solid #27CB8B;
+}
+
+.home-intro-section>.hero-shape {
+    position: absolute;
+    bottom: -50px;
+    left: 15a0px;
 }

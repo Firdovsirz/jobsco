@@ -11,6 +11,18 @@ header {
     left: 0;
     width: 100%;
     z-index: 10;
+    transition: all 400ms;
+    height: 90px;
+    padding-bottom: 50px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    height: 80px;
 }
 
 header>nav {
@@ -46,7 +58,7 @@ header>nav>.header-pages>ul>li {
 
 header>nav>.header-buttons>.header-post-btn {
     font-size: 17px;
-    padding: 15px 24px;
+    padding: 17px 24px;
     color: white;
     font-weight: 700;
     background: #27CB8B;
@@ -63,6 +75,19 @@ header>nav>.header-buttons>.header-log-in-btn {
     font-weight: 700;
     background: transparent;
     border: 1px solid transparent;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.header-log-in-btn-sticky {
+    padding: 17px 41px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    background: #000DFF;
+    border: 1px solid #000DFF;
     border-radius: 8px;
     margin-right: 10px;
     cursor: pointer;

@@ -2,6 +2,7 @@ import React from 'react';
 import "../HomeIntroSection/HomeIntroSection.css"
 import IntroShape from "/src/assets/Home/intro-shape2.webp";
 import IntroHero from "/src/assets/Home/intro-hero.webp";
+import HeroShape from "/src/assets/Home/hero-shape.webp"
 
 export default function HomeIntroSection() {
     return (
@@ -18,8 +19,9 @@ export default function HomeIntroSection() {
                 <div className='intro-bg-text'>
                     <h2>jobs</h2>
                 </div>
-                    <img className='intro-shape-image' src={IntroShape} alt="" />
-                    <img className='intro-hero-image' src={IntroHero} alt="" />
+                <img className='intro-shape-image' src={IntroShape} alt="" />
+                <img className='intro-hero-image' src={IntroHero} alt="" />
+                <img className='hero-shape' src={HeroShape} alt="" />
             </section>
         </>
     )
