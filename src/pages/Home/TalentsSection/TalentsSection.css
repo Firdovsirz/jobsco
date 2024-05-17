@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.talents-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F1F5F9;
+    padding-top: 50px;
+    padding-bottom: 250px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.talents-section>.talents-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.talents-section>.talents-main>.talents-text {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.talents-section>.talents-main>.talents-text>h2 {
+    color: #00044A;
+    text-transform: capitalize;
+    font-size: 46px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.talents-section>.talents-main>.talents-text>p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-block: 20px;
+}
+
+.talents-section>.talents-main>.talents-text>button {
+    cursor: pointer;
+    padding: 22px 39px;
+    color: #fff;
+    font-size: 16px;
+    background: #000DFF;
+    border: 1px solid #000DFF;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.talents-section>h1 {
+    position: absolute;
+    font-family: "DM Sans", sans-serif;
+    color: #FFF;
+    font-size: 239px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    -webkit-text-stroke-width: 22px;
+    -webkit-text-stroke-color: #fff;
+    bottom: -15px;
+}

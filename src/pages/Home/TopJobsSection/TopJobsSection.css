@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-.top-jobs-section>.top-jobs-text{
+.top-jobs-section>.top-jobs-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.top-jobs-section>.top-jobs-text>.top-job-counter{
+.top-jobs-section>.top-jobs-text>.top-job-counter {
     color: #000DFF;
     font-size: 120px;
     font-weight: 700;
@@ -19,18 +19,88 @@
     display: block;
 }
 
-.top-jobs-section>.top-jobs-text>.top-job-heading{
+.top-jobs-section>.top-jobs-text>.top-job-heading {
     font-size: 40px;
     color: #00044A;
     font-weight: 700;
     margin-bottom: 25px;
 }
 
-.top-jobs-section>.top-jobs-text>.top-job-desc{
+.top-jobs-section>.top-jobs-text>.top-job-desc {
     width: 700px;
     text-align: center;
     color: #6D6E8D;
     line-height: 30px;
     margin-bottom: 15px;
     font-weight: normal;
+}
+
+.job-cards {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.job-card {
+    height: 300px;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 20px;
+    transition: all 400ms;
+}
+
+.job-card:hover {
+    box-shadow: -10px 10px 76px rgba(54, 127, 255, 0.12);
+}
+
+.job-card>.job-card-desc {
+    position: relative;
+}
+
+.job-card>.job-card-desc>img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.job-card>.job-card-desc>.job-title {
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #00044A !important;
+    margin-bottom: 10px;
+}
+
+.job-card>.job-card-desc>.job-desc {
+    height: 50px;
+}
+
+.job-card>.job-card-desc>.job-remote {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 7px 18px;
+    background: rgba(18, 217, 223, 0.09);
+    color: #12D9DF;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.job-card>.job-card-desc>button {
+    color: #000DFF;
+    font-size: 16px;
+    background-color: rgba(0, 13, 255, 0.06);
+    display: inline-block;
+    padding: 14px 37px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    transition: all 400ms;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.job-card>.job-card-desc>button:hover {
+    color: #fff;
+    background: #000DFF;
 }

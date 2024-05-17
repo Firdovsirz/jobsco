@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.categories-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-section>.categories-heading>h3 {
+    text-align: center;
+    color: #00044A;
+    text-transform: capitalize;
+    font-size: 46px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.categories-section>.categories-heading>p {
+    text-align: center;
+    width: 850px;
+    color: #6D6E8D;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.categories-section>.categories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.categories-section>.categories-cards>.categorie-card {
+    border: 1px solid transparent;
+    padding: 20px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.categories-section>.categories-cards>.categorie-card>.categorie-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 60px rgba(54, 127, 255, 0.1);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.categories-section>.categories-cards>.categorie-card>.categorie-icon-container>img {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    line-height: 80px;
+}
+
+.categories-section>.categories-cards>.categorie-card>h3 {
+    color: #00044A;
+    transition: all .2s ease-out 0s;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.categories-section>.categories-cards>.categorie-card>p {
+    width: 350px;
+    transition: all .2s ease-out 0s;
+    color: #6D6E8D;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.categories-section>.categories-cards>.categorie-card>button {
+    background: transparent;
+    color: #000DFF;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px 30px 12px 0;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.categories-section>.categories-cards>.categorie-card:hover {
+    box-shadow: 0px 15px 60px rgba(54, 127, 255, 0.1);
+}
+
+.categories-section>.categories-cards>.categorie-card:hover .browse-btn {
+    padding-left: 30px;
+    background: rgba(0, 13, 255, 0.06);
+}

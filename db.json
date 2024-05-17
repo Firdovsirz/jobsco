@@ -1,13 +1,19 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
+    "jobs": [
+      { "id": "1", "title": "Design & creatives", "desc": "The automated process as soon as your clothes go into.", "remote": false },
+      { "id": "2", "title": "Development", "desc": "Building Tomorrow, One Line of Code at a Time.", "remote": true },
+      {"id": "3", "title": "Frontend Developer", "desc": "Crafting Visions, One Pixel at a Time.", "remote": true},
+      {"id": "4", "title": "Fullstack Developer", "desc": "Mastering the Web, From Front to Back.", "remote": false},
+      {"id": "5", "title": "Backend Developer", "desc": "Powering the Future, One Server at a Time.", "remote": true},
+      {"id": "6", "title": "Data Analist", "desc": "Transforming Data into Insight, One Byte at a Time.", "remote": false},
+      {"id": "7", "title": "Android Developer", "desc": "Shaping Mobile Experiences, One App at a Time.", "remote": true}
     ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    "categories": [
+      {"id": "1", "title": "Design & creatives", "desc":"The automated process as soon as your clothes go into."},
+      {"id": "2", "title": "Finance", "desc":"The automated process as soon as your clothes go into."},
+      {"id": "3", "title": "Marketing", "desc":"The automated process as soon as your clothes go into."},
+      {"id": "4", "title": "Health/Medical", "desc":"The automated process as soon as your clothes go into."},
+      {"id": "5", "title": "Corporate", "desc":"The automated process as soon as your clothes go into."},
+      {"id": "6", "title": "Copywriting", "desc":"The automated process as soon as your clothes go into."}
+    ]
   }
