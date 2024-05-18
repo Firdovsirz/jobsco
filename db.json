@@ -15,5 +15,10 @@
       {"id": "4", "title": "Health/Medical", "desc":"The automated process as soon as your clothes go into."},
       {"id": "5", "title": "Corporate", "desc":"The automated process as soon as your clothes go into."},
       {"id": "6", "title": "Copywriting", "desc":"The automated process as soon as your clothes go into."}
+    ],
+    "feedback":[
+      {"id": "1", "name": "Robart Brown", "jobTitle": "Creative designer", "desc": "The automated process as soon as your clothes go into the machine. This site is gleaming clothe. Placeholder text commonly used. In publishing and graphic."},
+      {"id": "2", "name": "Carl Gosling", "jobTitle": "Frontend developer", "desc": "The automated process as soon as your clothes go into the machine. This site is gleaming clothe. Placeholder text commonly used. In publishing and graphic."},
+      {"id": "3", "name": "Jack Brown", "jobTitle": "Backend developer", "desc": "The automated process as soon as your clothes go into the machine. This site is gleaming clothe. Placeholder text commonly used. In publishing and graphic."}
     ]
   }

@@ -16,7 +16,6 @@ export default function TopCategoriesSection() {
             .then(data => setCategories(data))
             .catch(err => console.log(err))
     }, []);
-    console.log(categories);
     return (
         <>
             <section className='categories-section'>
@@ -27,7 +26,7 @@ export default function TopCategoriesSection() {
                 <div className='categories-cards'>
                     {categories.map((element, index) => {
                         return (
-                            <div className='categorie-card'>
+                            <div className='categorie-card' key={element.id}>
                                 <div className='categorie-icon-container'><img src={categorieIcons[index]} alt="top-cat" /></div>
                                 <h3>{element.title}</h3>
                                 <p>{element.desc}</p>

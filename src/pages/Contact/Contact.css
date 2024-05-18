@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-heading {
+    padding: 200px 200px 200px 350px;
+    background: #F1F5F9;
+    margin-bottom: 100px;
+}
+
+.contact-map {
+    width: fit-content;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.contact-map>iframe {
+    width: 1200px;
+    height: 500px;
+    border: none;
+    margin: 0 auto;
+}
+
+.contact-heading>h1 {
+    color: #00044A;
+    font-size: 50px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 19px;
+}
