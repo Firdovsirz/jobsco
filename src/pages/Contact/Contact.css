@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.contact-main {
+    margin-bottom: 100px;
+}
+
 .contact-heading {
     padding: 200px 200px 200px 350px;
     background: #F1F5F9;
@@ -31,4 +35,122 @@
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 19px;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.contact-form>h2 {
+    color: #00044A;
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: normal;
+}
+
+.contact-form>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form>div>div>* {
+    display: flex;
+    align-items: center;
+    margin-block: 40px;
+}
+
+.contact-form>div>div>*>div>a {
+    text-decoration: none;
+    color: #00044A;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+}
+
+.contact-form>div>div>*>div>p {
+    color: #6D6E8D;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.contact-form>div>form {
+    width: 800px;
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+
+.contact-form>div>form>textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 190px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 20px;
+}
+
+.contact-form>div>form>label {
+    width: 100%;
+}
+
+.contact-form>div>form>label>input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+    margin-bottom: 20px;
+}
+
+.contact-form>div>form>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-form>div>form>div>label:first-child {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.contact-form>div>form>div>label:first-child>input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.contact-form>div>form>div>label:last-child {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.contact-form>div>form>div>label:last-child>input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.contact-form>div>form>div>label>input {
+    width: 100%;
+}
+
+.contact-form>div>form>label:last-child {
+    margin-bottom: 20px;
+}
+
+.contact-form>div>form>button {
+    border: 1px solid #000DFF;
+    background: transparent;
+    padding: 18px 44px;
+    color: #000DFF;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.contact-form>div>form>button:hover {
+    background: #000DFF;
+    color: #fff;
 }

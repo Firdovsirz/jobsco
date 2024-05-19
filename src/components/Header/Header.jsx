@@ -18,6 +18,14 @@ export default function Header() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [])
+    const [dropdown, setDropdown] = useState(false);
+    const handleMouseEnter = () => {
+        setDropdown(true);
+    }
+    const handleMouseLeave = () => {
+        setDropdown(false);
+    }
+    console.log(dropdown);
     return (
         <>
             <header className={isSticky ? 'sticky' : ''}>
@@ -27,7 +35,20 @@ export default function Header() {
                         <ul>
                             <li>HOME</li>
                             <li>BROWSE JOBS</li>
-                            <li>PAGE</li>
+                            <li className='dropdown-container' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>PAGE
+                                {/* {dropdown && <ul className='dropdown-menu'>
+                                    <li>Blog</li>
+                                    <li>Candidates</li>
+                                    <li>Job Details</li>
+                                    <li>Blog Details</li>
+                                </ul>} */}
+                                <ul className={`dropdown-menu ${dropdown ? "open" : "closed"}`}>
+                                    <li>Blog</li>
+                                    <li>Candidates</li>
+                                    <li>Job Details</li>
+                                    <li>Blog Details</li>
+                                </ul>
+                            </li>
                             <li>CONTACT</li>
                         </ul>
                     </div>
