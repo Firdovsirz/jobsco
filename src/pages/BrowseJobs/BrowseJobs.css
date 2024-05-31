@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.browse-job-main{
+    background: #FBFBFB;
+}
+.browse-jobs-heading {
+    padding: 200px 200px 130px 350px;
+    background: #F1F5F9;
+    margin-bottom: 100px;
+}
+
+.browse-jobs-heading>h1 {
+    color: #00044A;
+    font-size: 50px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 19px;
+}
+
+.browse-main {
+    display: flex;
+}
+.browse-jobs-filter{
+    border: 1px solid rgb(196, 196, 196);
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.browse-jobs-filter>h3{
+    margin-bottom: 20px;
+}
+.browse-jobs-filter>button{
+    width: 100%;
+    color: white;
+    height: 50px;
+    font-size: 17px;
+    background: #00D363;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
