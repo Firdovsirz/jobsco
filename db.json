@@ -22,12 +22,16 @@
       {"id": "3", "name": "Jack Brown", "jobTitle": "Backend developer", "desc": "The automated process as soon as your clothes go into the machine. This site is gleaming clothe. Placeholder text commonly used. In publishing and graphic."}
     ],
     "availableJobs":[
-      {"id": "1", "title": "Software Engineer", "location" : "California, USA", "jobType": "Full-time", "date": "22 July, 2024", "salary": 5000, "experience": "More than 2-3 years"},
-      {"id": "2", "title": "Frontend Developer", "location" : "Tbilisi, GEO", "jobType": "Full-time", "date": "20 June, 2024", "salary": 2500, "experience": "More than 1 year"},
-      {"id": "3", "title": "Backend Developer", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "5 June, 2024", "salary": 1500, "experience": "More than 3 years"},
-      {"id": "4", "title": "IT support", "location" : "California, USA", "jobType": "Part-time", "date": "1 June, 2024", "salary": 2000, "experience": "More than 2 years"},
-      {"id": "5", "title": "UX/UI Designer", "location" : "Baku, AZE", "jobType": "Full-time", "date": "25 June, 2024", "salary": 1100, "experience": "More than  year"},
-      {"id": "6", "title": "Visual Designer", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "2 May, 2024", "salary": 900, "experience": "Less than 1 year"},
-      {"id": "7", "title": "Wordpress Developer", "location" : "Baku, AZE", "jobType": "Part-time", "date": "10 July, 2024", "salary": 500, "experience": "No experience"}
+      {"id": 1, "title": "Software Engineer", "location" : "California, USA", "jobType": "Full-time", "date": "22 July, 2024", "salary": 5000, "experience": "More than 2-3 years"},
+      {"id": 2, "title": "Frontend Developer", "location" : "Tbilisi, GEO", "jobType": "Full-time", "date": "20 June, 2024", "salary": 2500, "experience": "More than 1 year"},
+      {"id": 3, "title": "Backend Developer", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "5 June, 2024", "salary": 1500, "experience": "More than 3 years"},
+      {"id": 4, "title": "IT support", "location" : "California, USA", "jobType": "Part-time", "date": "1 June, 2024", "salary": 2000, "experience": "More than 2 years"},
+      {"id": 5, "title": "UX/UI Designer", "location" : "Baku, AZE", "jobType": "Full-time", "date": "25 June, 2024", "salary": 1100, "experience": "More than  year"},
+      {"id": 6, "title": "Visual Designer", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "2 May, 2024", "salary": 900, "experience": "Less than 1 year"},
+      {"id": 7, "title": "Wordpress Developer", "location" : "Baku, AZE", "jobType": "Full-time", "date": "10 July, 2024", "salary": 500, "experience": "No experience"},
+      {"id": 8, "title": "Graphic Designer", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "09 July, 2024", "salary": 1500, "experience": "More than 1 year"},
+      {"id": 9, "title": "Motion Designer", "location" : "California, USA", "jobType": "Part-time", "date": "02 July, 2024", "salary": 2000, "experience": "No experience"},
+      {"id": 10, "title": "System Adminstrator", "location" : "Baku, AZE", "jobType": "Full-time", "date": "25 July, 2024", "salary": 1000, "experience": "More than 2 years"},
+      {"id": 11, "title": "Helpdesk", "location" : "Tbilisi, GEO", "jobType": "Part-time", "date": "10 June, 2024", "salary": 800, "experience": "No experience"}
     ]
   }

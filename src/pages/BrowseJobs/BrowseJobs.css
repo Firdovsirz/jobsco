@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.browse-job-main{
+
+.browse-job-main {
     background: #FBFBFB;
 }
+
 .browse-jobs-heading {
     padding: 200px 200px 130px 350px;
     background: #F1F5F9;
@@ -23,18 +25,23 @@
 
 .browse-main {
     display: flex;
+    justify-content: space-evenly;
+    padding-inline: 300px;
 }
-.browse-jobs-filter{
+
+.browse-jobs-filter {
     border: 1px solid rgb(196, 196, 196);
     padding: 20px;
-    width: 250px;
+    width: 300px;
+    height: fit-content;
     border-radius: 5px;
 }
 
-.browse-jobs-filter>h3{
+.browse-jobs-filter>h3 {
     margin-bottom: 20px;
 }
-.browse-jobs-filter>button{
+
+.browse-jobs-filter>button {
     width: 100%;
     color: white;
     height: 50px;
@@ -42,4 +49,112 @@
     background: #00D363;
     border: 1px solid transparent;
     border-radius: 5px;
+}
+
+.browse-jobs {
+    width: 850px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.browse-jobs>.job-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.browse-jobs>.job-listing>p {
+    color: #00044A;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    font-size: 20px;
+}
+
+.browse-jobs>.job-listing>div {
+    width: 200px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc {
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main {
+    display: flex;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>img {
+    margin-right: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    background: #F5F7FA;
+    padding: 12px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>.aval-job-title>.aval-job-location {
+    display: flex;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>.aval-job-title>.aval-job-location>div {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>.aval-job-title>.aval-job-location>div:first-child {
+    width: 150px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>.aval-job-title>h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #00044A;
+    margin-bottom: 10px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-main>.aval-job-title>.aval-job-location>div>p {
+    margin-left: 10;
+    color: #6D6E8D;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-apply>.apply-btn-container {
+    display: flex;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-apply>.apply-btn-container>button {
+    background: #00D363;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    padding: 13px 29px 13px 29px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.browse-jobs>.available-jobs>.available-job-desc>.aval-job-apply>p {
+    color: #6D6E8D;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-style: italic;
 }
